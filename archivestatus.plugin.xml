@@ -5,5 +5,6 @@
 	<url>http://chrismeller.com</url>
 	<author url="http://chrismeller.com">Chris Meller</author>
 	<version>0.1</version>
-	<description><![CDATA[Adds an archive post status.]]></description>
+	<guid>f0673138-6054-4ddc-a204-845938e2e81e</guid>
+	<description><![CDATA[Adds a custom 'archive' status for posts to help logically separate them from regular drafts.]]></description>
 </pluggable>
