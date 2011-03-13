@@ -32,8 +32,8 @@
 			}
 			else {
 				// otherwise, add a restore
-				$actions['archivestatus_restore']['label'] = _t( 'Restore', 'archivestatus' );
-				$actions['archivestatus_restore']['title'] = _t( 'Restore this post', 'archivestatus' );
+				$actions['archivestatus_restore']['label'] = _t( 'Un-Archive', 'archivestatus' );
+				$actions['archivestatus_restore']['title'] = _t( 'Un-Archive this post', 'archivestatus' );
 				$actions['archivestatus_restore']['url'] = 'javascript:itemManage.update(\'archivestatus_restore\', ' . $post->id . ');';
 			}
 						
@@ -47,8 +47,8 @@
 			$actions['archivestatus_archive']['title'] = _t( 'Archive Selected Entries', 'archivestatus' );
 			$actions['archivestatus_archive']['action'] = 'itemManage.update(\'archivestatus_archive\'); return false;';
 		
-			$actions['archivestatus_restore']['label'] = _t( 'Restore Selected', 'archivestatus' );
-			$actions['archivestatus_restore']['title'] = _t( 'Restore Selected Entries', 'archivestatus' );
+			$actions['archivestatus_restore']['label'] = _t( 'Un-Archive Selected', 'archivestatus' );
+			$actions['archivestatus_restore']['title'] = _t( 'Un-Archive Selected Entries', 'archivestatus' );
 			$actions['archivestatus_restore']['action'] = 'itemManage.update(\'archivestatus_restore\'); return false;';
 			
 			return $actions;
