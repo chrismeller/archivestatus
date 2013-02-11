@@ -1,5 +1,7 @@
 <?php
 
+	namespace Habari;
+
 	class ArchiveStatus extends Plugin {
 		
 		public function action_plugin_activation ( $file ) {
